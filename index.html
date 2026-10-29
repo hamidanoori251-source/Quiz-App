@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.CSS">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Quiz App </title>
+</head class="header">
+<body>
+   <header> 
+    <H1> My quiz app </H1>
+ <p> Welcome to my quiz app! Here, you can add questions, view all your questions, and study by showing and hiding the answers. </p>
+   </header>
+
+   <nag class="navigation">
+    <button class="nav-btn active" data-section="all">
+        List all questions
+
+    </button>
+   </nag>
+   <main class="container">
+    <section id="study"class="section">
+        <h2>study questions</h2>
+        <p class="description">
+            read the question and try to remember the answer.
+
+        </p>
+        <div id="study-card" class="card">
+            <P id="question-count" class="question-count"></P>
+            <h3 id="study-question"></h3>
+
+            <div id="study-answer" class="answer hidden"></div>
+            <div class="button-group">
+                <button id="show-answer" class="primary-btn">
+                    Next question
+
+                    <section id="all" class="section hidden">
+                        <h2>All Questions</h2>
+                        <p class="description">
+                            view all your questions and answers here.
+
+                        </p>
+
+                        <div id="question-List"></div>
+
+                    </section>
+
+                    <section id="add" class="section hidden">
+                        <h2>Add a new Question</h2>
+                        <p class="description">
+                            Enter a question and its answer below.
+
+                        </p>
+
+                        <form id="question-form" class="card">
+                            <lable for="new-question">
+                                your question
+
+
+                            </lable>
+                            <textarea id="new-question" placeholder="for exaple: what is html?">
+                                required
+                            </textarea>
+                            <label for="new-answer">
+                                your answer
+
+                            </label>
+
+                            <textarea id="new-answer" placeholder="for example: HTML structures a webpage.">
+                                required
+
+                            </textarea>
+                            
+                            <button type="submit" class="primary-btn">
+                                Add Question
+
+                            </button>
+                            <p id="form-message" role="status">
+
+                            </p>
+
+
+
+                        </form>
+
+                    </section>
+
+
+                </button>
+            </div>
+
+            
+
+            
+
+        </div>
+
+    </section>
+
+   </main>
+
+
+ <script src="script.js"></script>   
+</body>
+</html>
+</body>
+</html>
